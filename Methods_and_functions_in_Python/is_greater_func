@@ -1,0 +1,12 @@
+def is_greater(a, b):
+    if a > b:
+        return True
+    elif a <= b:
+        return False
+
+n1 = int(input("Enter first number: "))
+n2 = int(input("Enter second number: "))
+
+res = is_greater(n1, n2)
+
+print(f"{n1} > {n2}: {res}")
