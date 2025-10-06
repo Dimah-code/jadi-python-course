@@ -1,3 +1,5 @@
 .spyproject/*
 testing.py
 temp.py
+__pycache__/*
+__pycache__
