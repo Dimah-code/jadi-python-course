@@ -1,5 +1,5 @@
 .spyproject/*
-testing.py
 temp.py
 __pycache__/
 *.pyc
+trash/*
