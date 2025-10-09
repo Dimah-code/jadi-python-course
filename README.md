@@ -1,4 +1,3 @@
-<!-- Improved compatibility of back to top link: See: https://github.com/othneildrew/Best-README-Template/pull/73 -->
 <a id="readme-top"></a>
 
 <!-- PROJECT LOGO -->
@@ -65,14 +64,6 @@ The repository is organized into different sections covering various Python conc
 - **Error Handling and Exceptions**
 - **Advanced Python Concepts**
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-### Built With
-
-* [![Python][Python.org]][Python-url]
-* [![Jupyter][Jupyter.org]][Jupyter-url]
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- GETTING STARTED -->
 ## Getting Started
@@ -101,7 +92,7 @@ To get started with these Python exercises, follow these simple steps.
     source venv/bin/activate   
     # On Windows
     venv\Scripts\activate
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
 
 <!-- EXERCISES OVERVIEW -->
 ## Exercises Overview
