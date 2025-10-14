@@ -7,6 +7,7 @@ def pick_evens(*args):
             continue
     return evens
 
+
 res = pick_evens(1, 3, 5, 7, 9)
 res1 = pick_evens(1, 2, 3, 4, 5, 6, 7, 8)
 

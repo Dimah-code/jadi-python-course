@@ -4,6 +4,7 @@ def is_positive(num):
     else:
         return False
 
+
 inp = int(input("Enter a positive or negative number: "))
 
 judge = is_positive(inp)

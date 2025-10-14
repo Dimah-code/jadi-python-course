@@ -8,4 +8,3 @@ if 2 <= n <= 1000:
             n = n * 3 + 1
         print(n)
 print("END")
-        

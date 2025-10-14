@@ -9,13 +9,13 @@ while tryAnother == "y":
     secondNumber = int(input("Enter another number: "))
 
     Dictionary = {
-        "+" : firstNumber + secondNumber,
-        "-" : firstNumber - secondNumber,
-        "*" : firstNumber * secondNumber,
-        "/" : firstNumber / secondNumber
+        "+": firstNumber + secondNumber,
+        "-": firstNumber - secondNumber,
+        "*": firstNumber * secondNumber,
+        "/": firstNumber / secondNumber,
     }
 
     print(f"{firstNumber} {sign} {secondNumber} = {Dictionary[sign]}")
     tryAnother = input("Another? (y/n)")
-                
+
 print("Good Bye!")

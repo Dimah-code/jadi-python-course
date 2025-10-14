@@ -5,6 +5,7 @@ def skyline(*args):
             tallest = i
     return tallest
 
+
 res = skyline(3, 7, 15, 2, 9)
 res1 = skyline(1, 1, 1, 1, 1)
 

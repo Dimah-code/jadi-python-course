@@ -1,5 +1,5 @@
-a = int(input("Enter \"A\": "))
-b = int(input("Enter \"B\": "))
-c = int(input("Enter \"C\": "))
+a = int(input('Enter "A": '))
+b = int(input('Enter "B": '))
+c = int(input('Enter "C": '))
 
 print(a < b <= c)
