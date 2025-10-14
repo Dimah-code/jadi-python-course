@@ -1,60 +1,57 @@
 # Exercise: Web Scraping with Python
 
 ## Description
-در این پروژه، شما قرار است از تکنیک **وب اسکرپینگ** برای استخراج اطلاعات از یک وب‌سایت استفاده کنید.  
-شما باید اطلاعاتی مانند **عنوان صفحه، یک کلاس خاص، و تصویر** از یک صفحه وب جمع‌آوری کنید.
 
----
+In this project, you are going to use the **web scraping** technique to extract information from a website. 
+You need to collect information such as **page title, a specific class, and an image** from a web page.
 
 ## Objective
-هدف شما این است که از وب‌سایتی دلخواه (مثل یک فروشگاه کتاب) داده‌های زیر را استخراج کنید:
+Your goal is to extract the following data from a given website (e.g. a bookstore):
 
-- عنوان صفحه وب  
-- اطلاعات داخل یک کلاس خاص (مثلاً عنوان کتاب یا محصول)  
-- لینک تصویر مربوط به کتاب یا محصول  
-- استفاده از کتابخانه‌های `requests` و `BeautifulSoup`
-
----
+- Web page title 
+- Information inside a specific class (e.g. book or product title) 
+- Image link to the book or product's image(URL)
+- Using `requests` and `BeautifulSoup` libraries
 
 ## Steps
 
-### 1. نصب پیش‌نیازها
+### 1. Installing prerequisites
 ```bash
 pip install requests beautifulsoup4
 
-### 2. اتصال به وب‌سایت
+### 2. Website connection
 
-با استفاده از کتابخانه requests به وب‌سایت متصل شوید.
+Connect to the website using the requests library.
 
-### 3. تجزیه HTML
+### 3. HTML parsing
 
-از BeautifulSoup برای تجزیه HTML و استخراج داده‌ها استفاده کنید.
+Use BeautifulSoup to parse HTML and extract data.
 
-### 4. استخراج اطلاعات
+### 4. Extract data
 
-عنوان صفحه
+Page's title
 
-داده‌ها از کلاس مشخص‌شده
+Data from the specified class
 
-لینک تصاویر
+Image's URL
 
-### 5. چاپ نتایج
+### 5. Print result
 
-در نهایت، داده‌های استخراج‌شده را در کنسول چاپ کنید.
+Finally print results
 
 ## Input
 
-یک URL از وب‌سایت هدف
+A URL from the target website
 
-یک کلاس HTML برای استخراج داده‌ها
+An HTML class for data extraction
 
 ## Output
 
-عنوان صفحه وب
+Web page title
 
-لیست عناوین استخراج‌شده
+List of extracted titles
 
-لیست لینک‌های تصاویر
+List of image URLs
 
 ## Example Output
 
@@ -75,4 +72,4 @@ BeautifulSoup (bs4)
 
 ## Goal
 
-تمرین در درک ساختار HTML و استخراج اطلاعات از وب‌سایت‌ها با پایتون.
+Understanding HTML structure and extracting information from websites with Python.
