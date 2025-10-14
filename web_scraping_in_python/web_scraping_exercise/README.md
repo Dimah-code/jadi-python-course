@@ -17,7 +17,8 @@ Your goal is to extract the following data from a given website (e.g. a bookstor
 
 ### 1. Installing prerequisites
 ```bash
-pip install requests beautifulsoup4
+    pip install requests beautifulsoup4
+```
 
 ### 2. Website connection
 
