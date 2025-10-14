@@ -9,12 +9,13 @@ req.raise_for_status()
 
 soup = BeautifulSoup(req.text, "html.parser")
 
+page_title = soup.select_one("title")
 image = soup.select_one("#book-image")
 title = soup.select_one(".bookHeader_bookTitleContainer__7Z98p > h1:nth-child(1)")
 author = soup.select_one("div.bookHeader_bookInfo__panht:nth-child(1) > span:nth-child(2) > a:nth-child(1) > span:nth-child(1)")
-price = soup.select_one(".format_priceNum__KA_Sh")
 category = soup.select_one(".categories_link__aXiRr")
 
+print("Page title: ", page_title.text.strip())
 print("Title: ", title.text.strip())
 print("Author: ", author.text.strip())
 print("Image URL: ", image["src"])

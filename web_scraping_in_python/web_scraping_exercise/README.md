@@ -57,11 +57,78 @@ List of image URLs
 ## Example Output
 
 ```txt
-    Title:  دانلود و خرید کتاب صوتی اول عاشق خودت باش
-    Author:  مارک رکلاو
-    Image URL:  https://img.taaghche.com/audioCover/165476.jpg?w=200
-    Category:  موفقیت و خودیاری
+    Page Title: Products – ScrapeMe
 
+    Titles:
+
+    - Bulbasaur 
+
+    - Ivysaur 
+
+    - Venusaur 
+
+    - Charmander 
+
+    - Charmeleon 
+
+    - Charizard 
+
+    - Squirtle 
+
+    - Wartortle 
+
+    - Blastoise 
+
+    - Caterpie 
+
+    - Metapod 
+
+    - Butterfree 
+
+    - Weedle 
+
+    - Kakuna 
+
+    - Beedrill 
+
+    - Pidgey 
+
+
+    Image URLs:
+
+    - https://scrapeme.live/wp-content/uploads/2018/08/001-350x350.png 
+
+    - https://scrapeme.live/wp-content/uploads/2018/08/002-350x350.png 
+
+    - https://scrapeme.live/wp-content/uploads/2018/08/003-350x350.png 
+
+    - https://scrapeme.live/wp-content/uploads/2018/08/004-350x350.png 
+
+    - https://scrapeme.live/wp-content/uploads/2018/08/005-350x350.png 
+
+    - https://scrapeme.live/wp-content/uploads/2018/08/006-350x350.png 
+
+    - https://scrapeme.live/wp-content/uploads/2018/08/007-350x350.png 
+
+    - https://scrapeme.live/wp-content/uploads/2018/08/008-350x350.png 
+
+    - https://scrapeme.live/wp-content/uploads/2018/08/009-350x350.png 
+
+    - https://scrapeme.live/wp-content/uploads/2018/08/010-350x350.png 
+
+    - https://scrapeme.live/wp-content/uploads/2018/08/011-350x350.png 
+
+    - https://scrapeme.live/wp-content/uploads/2018/08/012-350x350.png 
+
+    - https://scrapeme.live/wp-content/uploads/2018/08/013-350x350.png 
+
+    - https://scrapeme.live/wp-content/uploads/2018/08/014-350x350.png 
+
+    - https://scrapeme.live/wp-content/uploads/2018/08/015-350x350.png 
+
+    - https://scrapeme.live/wp-content/uploads/2018/08/016-350x350.png 
+
+```
 
 ## Technologies Used
 
