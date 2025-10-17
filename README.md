@@ -1,7 +1,7 @@
 <a name="readme-top"></a>
 
 <div align="center">
-  <img src="assets/jadi-python-course-in-maktabkhooneh-photo.jpeg" alt="logo" width="400"  height="auto" />
+  <img src="assets/jadi-python-course-in-maktabkhooneh-photo.jpeg" alt="logo" width="400"  height="auto" >
   <br/>
 
   <h3><b>Jadi Python Course</b></h3>
@@ -61,7 +61,6 @@ Follow these steps to run exercises locally.
  git
  python 3.10.x or later
 ```
- -->
 
 ### Setup & Install
 
@@ -100,7 +99,7 @@ To run the project, execute the following command:
 ```
 
 ### Tip:
-- Each exercise folder should include a short README.md explaining the task and the expected input / output — check that first.
+- Each exercise folder include a short README.md explaining the task and the expected input / output — check that first.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -180,6 +179,6 @@ Open-source community and contributors.
 
 ## 📝 License <a name="license"></a>
 
-This project is [MIT]() licensed.
+This project is [MIT](/LICENSE.md) licensed.
 
 </div>
