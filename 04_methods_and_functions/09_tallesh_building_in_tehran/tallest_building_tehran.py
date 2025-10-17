@@ -1,13 +1,13 @@
 def skyline(*args):
     tallest = 0
-    for i in args:
-        if i > tallest:
-            tallest = i
+    for this_building in args:
+        if this_building > tallest:
+            tallest = this_building
     return tallest
 
 
-res = skyline(3, 7, 15, 2, 9)
-res1 = skyline(1, 1, 1, 1, 1)
+first_result = skyline(3, 7, 15, 2, 9)
+second_result = skyline(1, 1, 1, 1, 1)
 
-print(res)
-print(res1)
+print(first_result)
+print(second_result)
