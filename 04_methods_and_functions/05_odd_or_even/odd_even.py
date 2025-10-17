@@ -4,4 +4,6 @@ def is_even(num):
 
 number = int(input("Enter a number: "))
 
-print(is_even(number))
+res = is_even(number)
+
+print(res)
