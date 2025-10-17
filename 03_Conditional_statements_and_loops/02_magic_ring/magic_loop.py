@@ -1,5 +1,5 @@
-x = int(input("Enter x: "))
 n = int(input("Enter n: "))
+x = int(input("Enter x: "))
 
 for _ in range(n):
     if x % 2 == 0:
