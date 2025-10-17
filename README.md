@@ -1,177 +1,185 @@
-<a id="readme-top"></a>
+<a name="readme-top"></a>
 
-<!-- PROJECT LOGO -->
-<br />
 <div align="center">
-  <a href="https://github.com/dimah-code/jadi-python-course">
-    <img src="https://cdn-icons-png.flaticon.com/512/5968/5968350.png" alt="Python Logo" width="80" height="80">
-  </a>
+  <img src="assets/jadi-python-course-in-maktabkhooneh-photo.jpeg" alt="logo" width="400"  height="auto" />
+  <br/>
 
-<h3 align="center">Jadi's Python Full Course - Exercises & Solutions</h3>
+  <h3><b>Jadi Python Course</b></h3>
 
-  <p align="center">
-    A comprehensive collection of Python exercises and solutions from Jadi's famous Python programming course
-    <br />
-    <a href="https://github.com/dimah-code/jadi-python-course"><strong>Explore the exercises »</strong></a>
-    <br />
-    <br />
-    <a href="https://github.com/dimah-code/jadi-python-course/issues">Report Bug</a>
-    &middot;
-    <a href="https://github.com/dimah-code/jadi-python-course/issues">Request Feature</a>
-  </p>
 </div>
 
-<!-- TABLE OF CONTENTS -->
-<details>
-  <summary>Table of Contents</summary>
-  <ol>
-    <li>
-      <a href="#about-the-project">About The Project</a>
-      <ul>
-        <li><a href="#course-structure">Course Structure</a></li>
-      </ul>
-    </li>
-    <li>
-      <a href="#getting-started">Getting Started</a>
-      <ul>
-        <li><a href="#prerequisites">Prerequisites</a></li>
-        <li><a href="#installation">Installation</a></li>
-      </ul>
-    </li>
-    <li><a href="#exercises-overview">Exercises Overview</a></li>
-    <li><a href="#usage">Usage</a></li>
-    <li><a href="#contributing">Contributing</a></li>
-    <li><a href="#license">License</a></li>
-    <li><a href="#contact">Contact</a></li>
-    <li><a href="#acknowledgments">Acknowledgments</a></li>
-  </ol>
-</details>
+# 📗 Table of Contents
 
-<!-- ABOUT THE PROJECT -->
-## About The Project
+- [📖 About the Project](#about-project)
+  - [🛠 Built With](#built-with)
+    - [Tech Stack](#tech-stack)
+    - [Key Features](#key-features)
+- [💻 Getting Started](#getting-started)
+  - [Prerequisites](#prerequisites)
+  - [Setup & Install](#setup)
+  - [Usage](#usage)
+- [👥 Authors](#authors)
+- [🔭 Future Features](#future-features)
+- [🤝 Contributing](#contributing)
+- [⭐️ Show your support](#support)
+- [🙏 Acknowledgements](#acknowledgements)
+- [📝 License](#license)
+
+<!-- PROJECT DESCRIPTION -->
+
+# 📖 [Jadi python course] <a name="about-project"></a>
 
 This repository contains exercises and solutions from **Jadi's Python Full Course** - one of the most popular Python programming courses in Persian. The course covers Python programming from beginner to advanced levels with practical examples and real-world applications.
 
-### Course Structure
+## 🛠 Built With <a name="built-with"></a>
 
-The repository is organized into different sections covering various Python concepts:
+### Tech Stack <a name="tech-stack"></a>
 
-- **Basic Syntax and Fundamentals**
-- **Data Structures** (Lists, Tuples, Dictionaries, Sets)
-- **Functions and Modules**
-- **Object-Oriented Programming (OOP)**
-- **File Handling**
-- **Error Handling and Exceptions**
-- **Advanced Python Concepts**
+- **Language**: Python (recommendation: `Python 3.10+`)
+- **Libraries**: Standard library only by default.
 
+<!-- Features -->
+
+### Key Features <a name="key-features"></a>
+
+- Exercises organized by topic
+- Solutions and hints
+- Small practical mini-projects and examples
+- Clear folder-per-lesson structure to make progression easy
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- GETTING STARTED -->
-## Getting Started
 
-To get started with these Python exercises, follow these simple steps.
+## 💻 Getting Started <a name="getting-started"></a>
+
+Follow these steps to run exercises locally.
 
 ### Prerequisites
 
-- Python 3.6 or higher
-- Basic understanding of programming concepts (recommended)
+```sh
+ git
+ python 3.10.x or later
+```
+ -->
 
-### Installation
+### Setup & Install
 
-1. Clone the repo
-   ```sh
-   git clone https://github.com/dimah-code/jadi-python-course.git
+Clone this repository to your desired folder:
 
-2. Navigate to the project directory
-      ```sh
-   cd jadi-python-course
+```sh
+  # Clone
+  git clone git@github.com:Dimah-code/jadi-python-course.git
+  cd jadi-python-course
+  # 2. (Optional) create a virtual environment
+  python -m venv venv
 
-3. (Optional) Create a virtual environment
-    ```sh
-    # On Linux
-    python -m venv venv
-    source venv/bin/activate   
-    # On Windows
-    venv\Scripts\activate
+  # Activate it:
+  # macOS / Linux (bash / zsh)
+  source venv/bin/activate
 
+  # Windows (PowerShell)
+  .\venv\Scripts\Activate.ps1
 
-<!-- EXERCISES OVERVIEW -->
-## Exercises Overview
-📚 Course Sections
+  # Windows (cmd)
+  venv\Scripts\activate.bat
 
-   ### Introduction to Python
+  # 3. Install dependencies
+  pip install -r requirements.txt
+```
 
-       Basic syntax and variables
+### Usage
 
-        Data types and operators
+To run the project, execute the following command:
+```sh
+  # Example: run the sample in lesson 01 (replace with a real filename)
+  python 01_basics_of_data_structures/05_wizard_of_python_city.py
 
-        Input/output operations
+  # Or run as module (safer if package layout used)
+  python -m 01_basics_of_data_structures/05_wizard_of_python_city
+```
 
-   ### Control Structures
+### Tip:
+- Each exercise folder should include a short README.md explaining the task and the expected input / output — check that first.
 
-        Conditional statements (if-elif-else)
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-        Loops (for, while)
+<!-- AUTHORS -->
 
-        Loop control statements
+## 👥 Authors <a name="authors"></a>
 
-   ### Data Structures
+👤 **Jadi**
 
-        Lists and list comprehensions
-
-        Tuples and dictionaries
-
-        Sets and their operations
-
-   ### Functions
-
-        Function definition and calling
-
-        Parameters and return values
-
-        Lambda functions
-
-        Decorators
-
-   ### Object-Oriented Programming
-
-        Classes and objects
-
-        Inheritance and polymorphism
-
-        Special methods
-
-   ### File Handling
-
-        Reading and writing files
-
-        Working with different file formats
-
-   ### Advanced Topics
-
-        Error handling with try-except
-
-        Modules and packages
-
-        Working with libraries
+- GitHub: [@jadijadi](https://github.com/jadijadi)
+- X: [@jadi](https://twitter.com/jadi)
+- Youtube: [Youtube](https://youtube.com/geekingjadi)
 
 
-<!-- LICENSE -->
-## License
+👤 **Dimah**
 
-This project is licensed under **MIT**. See [LICENSE](LICENSE) for details.
+- GitHub: [@Dimah-code](https://github.com/Dimah-code)
+- Gmail: [@dimah.code@gmail.com](dimah.code@gmail.com)
+- LinkedIn: [LinkedIn](in/hamidreza-ghareghani-b68b712b9)
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- FUTURE FEATURES -->
+
+## 🔭 Future Features <a name="future-features"></a>
+
+- [ ] Add unit tests for all exercises and CI integration
+- [ ] Add short demo GIFs showing example runs
 
 
-<!-- CONTACT -->
-## Contact
+<!-- CONTRIBUTING -->
 
-Dimah - [dimah-code](https://github.com/dimah-code)
+## 🤝 Contributing <a name="contributing"></a>
 
-Project Link: [https://github.com/dimah-code/jadi-python-course](https://github.com/dimah-code/jadi-python-course)
+Contributions are welcome!
 
+1. Fork the repo
 
-<!-- ACKNOWLEDGMENTS -->
-## Acknowledgments
+2. Create a branch: 
+```sh
+git checkout -b feature/<short-description>
+```
 
-* [Jadi](https://github.com/jadijadi) - For creating the amazing Python course
-* [Python Community](https://www.python.org/community/) - For the wonderful programming language
-* [All Contributors](https://github.com/dimah-code/jadi-python-course/graphs/contributors) - Who helped improve this repository
+3. Make your changes and add tests where applicable
+
+4. Commit:
+```sh
+git commit -m "feat: short description"
+```
+
+5. Push: 
+```sh
+git push origin feature/<branch>
+```
+
+6. Open a Pull Request
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- SUPPORT -->
+
+## ⭐️ Show your support <a name="support"></a>
+
+If this repo helped you practice Python, please give it a ⭐ and share with others learning Jadi's course. Issues, PRs and suggestions are welcome!
+
+<!-- ACKNOWLEDGEMENTS -->
+
+## 🙏 Acknowledgments <a name="acknowledgements"></a>
+
+Thanks to Jadi for the course content and inspiration.
+
+README skeleton from Microverse template — adapted for this repo.
+
+Open-source community and contributors.
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+## 📝 License <a name="license"></a>
+
+This project is [MIT]() licensed.
+
+</div>
