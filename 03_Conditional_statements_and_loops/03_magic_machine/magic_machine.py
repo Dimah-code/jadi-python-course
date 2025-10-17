@@ -1,5 +1,5 @@
 n = int(input("Enter a number: "))
-
+print(n)
 if 2 <= n <= 1000:
     while n != 1:
         if n % 2 == 0:
@@ -7,4 +7,3 @@ if 2 <= n <= 1000:
         else:
             n = n * 3 + 1
         print(n)
-print("END")
