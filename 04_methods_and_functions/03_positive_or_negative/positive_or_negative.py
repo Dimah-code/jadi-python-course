@@ -7,6 +7,6 @@ def is_positive(num):
 
 inp = int(input("Enter a positive or negative number: "))
 
-judge = is_positive(inp)
+res = is_positive(inp)
 
-print(judge)
+print(res)
