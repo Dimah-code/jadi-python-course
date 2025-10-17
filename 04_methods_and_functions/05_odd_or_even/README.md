@@ -20,20 +20,20 @@ Define a function called is_even(n) that:
 - A False value if the number is odd.
 
 ### Sample Input 1:
-```bash
+```sh
  8
 ```
 
 ### Expected Output 1:
-```bash
+```sh
  True
 ```
 ### Sample Input 2:
-```bash
+```sh
 15
 ```
 
 ### Expected Output 2:
-```bash
+```sh
  False
 ```

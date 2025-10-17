@@ -18,12 +18,12 @@ An integer n (2 ≤ n ≤ 1000)
 At each step, print the current value of n until the number reaches 1.
 
 ### Sample input:
-```bash
+```sh
  50
 ```
 
 ### Sample output:
-```bash
+```sh
  50
  25
  76

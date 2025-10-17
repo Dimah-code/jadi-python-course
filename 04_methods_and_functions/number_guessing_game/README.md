@@ -6,7 +6,7 @@ You can choose between three difficulty levels, each with its own score, range, 
 ### How to Play
 
 #### 1.Run the program:
-```bash
+```sh
 python guess_game.py
 ```
 
@@ -36,7 +36,7 @@ You guess the number correctly
 Or your score drops below 200
 
 ### Example Output:
-```bash
+```sh
 Choose difficulty level
 1. easy (1 <= x <= 64, score: 500)
 2. normal (1<= x <= 128, score: 1000)

@@ -23,23 +23,23 @@ f(a,b) = a^2 + b^2
 - An integer that is the sum of the squares of the two input numbers.
 
 ### Sample Input 1:
-```bash
+```sh
 3
 4
 ```
 
 ### Expected Output 1:
-```bash
+```sh
 25
 ```
 
 ### Sample Input 2:
-```bash
+```sh
 5
 12
 ```
 
 ### Expected Output 2:
-```bash
+```sh
 169
 ```

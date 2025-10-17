@@ -16,12 +16,12 @@ A wizard has decided to increase the power of numbers by using a special spell! 
 Finally, display the final value of x.
 
 ### Sample input:
-```bash
+```sh
  5
  10
 ```
 
 ### Sample output:
-```bash
+```sh
  65
 ```

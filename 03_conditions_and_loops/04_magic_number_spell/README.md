@@ -22,18 +22,18 @@ Write a program that takes an integer as input and determines whether it is a ma
 - Otherwise, print: "ordinary"
 
 ### Sample input 1:
-```bash
+```sh
  9
 ```
 ### Sample output 1:
-```bash
+```sh
  magical
 ```
 ### Sample input 2:
-```bash
+```sh
  10
 ```
 ### Sample output 2:
-```bash
+```sh
 cursed
 ```

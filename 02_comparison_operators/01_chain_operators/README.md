@@ -18,14 +18,14 @@ If the condition a < b <= c is true, then display the output True.
 Otherwise, display the output False.
 
 ### Sample input:
-```txt
+```sh
  5
  10
  15
 ```
 
 ### Sample output:
-```txt
+```sh
  True
 ```
 

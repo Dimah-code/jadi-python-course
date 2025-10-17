@@ -9,12 +9,12 @@ A store offers special discounts to its customers. The discount rules are as fol
 Write a program that receives the purchase amount from the user and displays the final amount.
 
 ### Input:
-```bash
+```sh
  55000
 ```
 
 ### Output:
-```bash
+```sh
  44000
 ```
 

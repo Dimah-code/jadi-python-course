@@ -22,11 +22,11 @@ Write a function called "is_positive" that takes a number and returns True if th
 ```
 
 ### Sample Input 2:
-```bash
+```sh
  -3
 ```
 
 ### Expected Output 2:
-```bash
+```sh
 False
 ```

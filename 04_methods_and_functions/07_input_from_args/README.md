@@ -22,17 +22,17 @@ If no inputs are passed, returns 0.
 5 10 15
 ```
 ### Expected output 1:
-```bash
+```sh
 30
 ```
 
 ### Sample input 2:
-```bash
+```sh
 7 3 2 1 9
 ```
 
 ### Expected output 2:
-```bash
+```sh
 22
 ```
 #### Because 7 + 3 + 2 + 1 + 9 = 22

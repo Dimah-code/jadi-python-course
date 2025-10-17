@@ -15,23 +15,23 @@ A list that contains only even numbers.
 If there are no even numbers in the input, return an empty list [].
 
 ### Sample Input 1:
-```bash
+```sh
 1 2 3 4 5 6
 ```
 
 ### Expected Output 1:
-```bash
+```sh
 [2, 4, 6]
 ```
 #### Because only even numbers remain in the list.
 
 ### Sample Input 2:
-```bash
+```sh
 7 13 19 21
 ```
 
 ### Expected Output 2:
-```bash
+```sh
 []
 ```
 Because there are no even numbers.

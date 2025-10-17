@@ -17,23 +17,23 @@ An integer that specifies the tallest building.
 If no value is given, returns 0.
 
 ### Sample Input 1:
-```bash
+```sh
 3 7 15 2 9
 ```
 
 ### Expected Output 1:
-```bash
+```sh
 15
 ```
 #### Because the tallest building has a height of 15.
 
 ### Sample Input 2:
-```bash
+```sh
 1 1 1 1
 ```
 
 ### Expected Output 2:
-```bash
+```sh
 1
 ```
 #### Because all buildings are the same height, the maximum value is 1.

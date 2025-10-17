@@ -19,23 +19,23 @@ In this exercise, you need to define a function called is_greater(a, b) that che
 - A False value if a is less than or equal to b.
 
 ### Sample Input 1:
-```bash
+```sh
 10
 5
 ```
 
 ### Expected Output 1:
-```bash
+```sh
 True
 ```
 
 ### Sample Input 2:
-```bash
+```sh
 3
 7
 ```
 
 ### Expected Output 2:
-```bash
+```sh
 False
 ```

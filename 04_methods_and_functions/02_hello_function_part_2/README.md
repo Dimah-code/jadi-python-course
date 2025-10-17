@@ -3,11 +3,11 @@
 Write a function called greet that takes a name as input and prints "Hello, Name!" (The input value should be displayed instead of Name.)
 
 ### Sample Input:
-```bash
+```sh
  Ali
 ```
 
 ### Expected Output:
-```bash
+```sh
  Hello, Ali!
 ```
