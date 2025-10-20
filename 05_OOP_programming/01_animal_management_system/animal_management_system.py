@@ -31,9 +31,16 @@ class Bird(Animal):
 
     def make_sound(self):
         return f"{self.name} is chirp like {self.sound}"
+    def __str__(self):
+        return f"""Name: {self.name}
+Age: {self.age}
+Species: {self.species}
+Sound: {self.sound}
+Wind span: {self.wind_span}"""
+    
 
 
-animal = Animal("Lion", "mammal", 8, "grrrruaaaalllll")
+animal = Animal("Lion", "African", 8, "grrrruaaaalllll")
 
 print(animal.make_sound())
 
@@ -44,3 +51,9 @@ animal.info()
 print()
 
 print(animal)
+
+print()
+
+bird = Bird("Pigeion", "Mourning Doves", 1, "Moosa Koo Taghi", 12)
+
+print(bird)
