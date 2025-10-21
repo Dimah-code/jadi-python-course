@@ -5,7 +5,8 @@
 In this project, you are going to use the **web scraping** technique to extract information from a website. 
 You need to collect information such as **page title, a specific class, and an image** from a web page.
 
-## Objective
+## Your Goal:
+
 Your goal is to extract the following data from a given website (e.g. a bookstore):
 
 - Web page title 
