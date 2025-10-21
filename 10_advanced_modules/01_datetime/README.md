@@ -12,20 +12,23 @@
 
 ## Step-by-Step Explanation
 
-datetime.now():
+### datetime.now():
+
 - Returns the current date and time as a datetime object.
 
-strftime():
+### strftime():
+
 - Formats a datetime into a readable string.
-Example format codes:
 
-%Y → year (2025)
+### Example format codes:
 
-%m → month (10)
+- %Y → year (2025)
 
-%d → day (21)
+- %m → month (10)
 
-%H:%M:%S → hour, minute, second
+- %d → day (21)
+
+- %H:%M:%S → hour, minute, second
 
 ## Creating specific dates:
 
