@@ -1,7 +1,12 @@
-def count_up():
-    for i in range(3):
-        yield i
+def count_up_to(n):
+    count = 1
+    while count <= n:
+        yield count
+        count += 1
 
 
-gen = count_up()
-print(list(gen))
+num = int(input("Enter a number: "))
+counter = count_up_to(num)
+
+for this_number in counter:
+    print(this_number)
