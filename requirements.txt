@@ -1,3 +1,5 @@
 openpyxl
 PyPDF2
 pre-commit
+requests
+flask
