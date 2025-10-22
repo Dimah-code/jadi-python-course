@@ -1,6 +1,6 @@
 import csv
 
-path = "/home/dimah/Public/PythonTry/13_working_with_data_files/CSV/customers-100.csv"
+path = "13_working_with_data_files/CSV/customers-100.csv"
 
 with open(path) as csvfile:
     csv_data = csv.reader(csvfile)
