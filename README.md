@@ -27,7 +27,7 @@
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 [Jadi python course] <a name="about-project"></a>
+# 📖 Jadi python course <a name="about-project"></a>
 
 This repository contains exercises and solutions from **Jadi's Python Full Course** - one of the most popular Python programming courses in Persian. The course covers Python programming from beginner to advanced levels with practical examples and real-world applications.
 
@@ -134,28 +134,7 @@ To run the project, execute the following command:
 
 ## 🤝 Contributing <a name="contributing"></a>
 
-Contributions are welcome!
-
-1. Fork the repo
-
-2. Create a branch: 
-```sh
-git checkout -b feature/<short-description>
-```
-
-3. Make your changes and add tests where applicable
-
-4. Commit:
-```sh
-git commit -m "feat: short description"
-```
-
-5. Push: 
-```sh
-git push origin feature/<branch>
-```
-
-6. Open a Pull Request
+Contributions are welcome! See [here](/CONTRIBUTING) for more information.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -179,6 +158,6 @@ Open-source community and contributors.
 
 ## 📝 License <a name="license"></a>
 
-This project is [MIT](/LICENSE.md) licensed.
+This project is [MIT](/LICENSE) licensed.
 
 </div>
