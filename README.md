@@ -23,13 +23,7 @@
 - [Acknowledgements](#acknowledgements)
 - [License](#license)
 
-<<<<<<< HEAD
-# Jadi python course <a name="about-project"></a>
-=======
-<!-- PROJECT DESCRIPTION -->
-
-# 📖 Jadi python course <a name="about-project"></a>
->>>>>>> 1895888 (docs: update project name in README.md)
+# Jadi python course | Examples & Exercises <a name="about-project"></a>
 
 This repository contains exercises and solutions from **Jadi's Python Full Course** - one of the most popular Python programming courses in Persian. The course covers Python programming from beginner to advanced levels with practical examples and real-world applications.
 
@@ -115,7 +109,7 @@ To run the project, execute the following command:
 
 ## Contributing <a name="contributing"></a>
 
-Contributions are welcome! See [here](/CONTRIBUTING) for more information.
+Contributions are welcome! See [here](/CONTRIBUTING.md) for more information.
 
 ## Show your support <a name="support"></a>
 
