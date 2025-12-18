@@ -23,7 +23,13 @@
 - [Acknowledgements](#acknowledgements)
 - [License](#license)
 
+<<<<<<< HEAD
 # Jadi python course <a name="about-project"></a>
+=======
+<!-- PROJECT DESCRIPTION -->
+
+# 📖 Jadi python course <a name="about-project"></a>
+>>>>>>> 1895888 (docs: update project name in README.md)
 
 This repository contains exercises and solutions from **Jadi's Python Full Course** - one of the most popular Python programming courses in Persian. The course covers Python programming from beginner to advanced levels with practical examples and real-world applications.
 

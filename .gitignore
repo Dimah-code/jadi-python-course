@@ -7,3 +7,4 @@ trash/*
 .venv/*
 .pre-commit-cache/
 venv/
+.idea/
