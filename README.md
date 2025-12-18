@@ -45,14 +45,14 @@ This repository contains exercises and solutions from **Jadi's Python Full Cours
 
 Follow these steps to run exercises locally.
 
-### Prerequisites
+### Prerequisites <a name="prerequisites"></a>
 
 ```sh
  git
  python 3.10.x or later
 ```
 
-### Setup & Install
+### Setup & Install <a name="setup"></a>
 
 Clone this repository to your desired folder:
 
@@ -77,7 +77,7 @@ Clone this repository to your desired folder:
   pip install -r requirements.txt
 ```
 
-### Usage
+### Usage <a name="usage"></a>
 
 To run the project, execute the following command:
 ```sh
